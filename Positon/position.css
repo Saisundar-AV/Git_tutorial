@@ -1,0 +1,22 @@
+.sup {
+  background-color: cadetblue;
+  padding: 10px;
+  margin: 10px;
+  border: 10px solid black;
+  color: darkblue;
+}
+.s1{
+  position: fixed ;  
+  background-color: cadetblue;
+  padding: 10px;
+  width: 100%;
+  margin: 0px;
+  margin-top: -10px;
+  color:red;
+  height: auto;
+
+}
+body{
+  margin: 0px;
+
+}
