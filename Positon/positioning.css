@@ -1,0 +1,40 @@
+body{
+    height: 3000vh;
+}
+.relative-pos{
+    position: relative;
+    background-color: cadetblue;
+    left: 50px;
+    top: 50px;
+
+}
+.relative-pos1{
+    position: relative;
+    background-color: cadetblue;
+}
+.relative-pos2{
+    position: relative;
+    background-color: cadetblue;
+}
+.div-pos{
+    position: relative;
+    border:2px solid silver;
+    margin: 200px;
+    height: 500px;
+    width: 500px;
+}
+.abs-pos{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+
+.sticky-pos{
+    position: sticky;
+    top: 10px;
+}
+
+.fixed-pos{
+    position: fixed;
+    top: 10px;
+}
