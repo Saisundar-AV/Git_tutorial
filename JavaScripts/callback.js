@@ -8,3 +8,12 @@ function callbackEg(){
 }
 
 SJITcollege("Welcome to SJIT",callbackEg);
+
+
+async function asyncEg(){
+    setTimeout(function(){
+        console.log("hello");
+    }, 5000);
+    return "Welcome to SJIT";
+}
+console.log(asyncEg());
