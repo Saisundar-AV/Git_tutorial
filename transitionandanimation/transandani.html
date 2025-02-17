@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="transandani.css">
+    <title>Transition and Animation</title>
+    <style>
+        .transition{
+            margin: 40px;
+            color: dimgray;
+            background-color: beige;
+            transition: background-color 5s,color 5s,padding 5s,width 5s,height 5s,transform 1s;
+        }
+        .transition:hover{
+            margin: 40px;
+            background-color: dimgray;
+            color:beige;
+            width: 300px;
+            height: 100px;
+            padding: 30px;
+            transform: rotate(360deg);
+        }
+    </style>
+</head>
+<body>
+    <h1 class="transition">This is a Transition Example</h1>
+</body>
+</html>
