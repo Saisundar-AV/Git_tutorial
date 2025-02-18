@@ -17,3 +17,9 @@ async function asyncEg(){
     return "Welcome to SJIT";
 }
 console.log(asyncEg());
+
+asyncEg().then((res) => {
+    console.log(res);
+}).catch((res) => {
+    console.log("res");
+});
