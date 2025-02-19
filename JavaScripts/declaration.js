@@ -45,7 +45,7 @@ set.add("Hello")
 console.log(set);
 set.add("Hello")
 console.log(set);
-console.log(typeof(set));*/
+console.log(typeof(set));
 // Logical operator
 console.log("Logical AND operator");
 console.log(5 && 10);
