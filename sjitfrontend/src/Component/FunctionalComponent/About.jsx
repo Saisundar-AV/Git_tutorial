@@ -13,7 +13,7 @@ function About() {
       <button onClick={() => setNum(num-1)}>-</button>
       <h3>Updating State: {num}</h3>
       <button onClick={increment}>+</button><br/>
-      <button onClick={()=>setNum(statevar)}>Reset</button>
+      <button onDoubleClick={()=>setNum(statevar)}>Reset</button>
     </div>
   );
 }

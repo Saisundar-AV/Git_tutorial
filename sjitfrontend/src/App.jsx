@@ -4,22 +4,21 @@ import About from './Component/FunctionalComponent/About'
 import Login from './Component/FunctionalComponent/Login'
 import Signup from './Component/FunctionalComponent/Signup'
 import Navbar from './Component/FunctionalComponent/Navbar'
-
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import UseEffect from './Component/FunctionalComponent/Hooks/UseEffect'
 function App() {
   return (
-    <>
-    <Navbar />
-    <div>
-      <hr />
-      <Home Properties="Hello" sjit="SJIT"/>
-      <hr />
-      <About />
-      <hr />
-      <Login />
-      <hr />
-      <Signup />
-      <hr />
-    </div>
+    <>    
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/login" element={<Login />} />
+      <Route path="use-effect" element={<UseEffect />} />
+      <Route path="/signup" element={<Signup />} />
+    </Routes>
+    </BrowserRouter>
+   
     </>
 
   );

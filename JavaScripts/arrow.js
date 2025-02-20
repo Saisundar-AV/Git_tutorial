@@ -48,7 +48,6 @@ console.log(a,b,f)
 class classEg{
     classfun=()=>{
         console.log('Hello function from class')
-
     }
 }
 
