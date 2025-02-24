@@ -1,26 +1,15 @@
-import Navbar from "./Navbar";
+function Home(props){
+  var homestyle={
+      textAlign:"center",
+      color : "red",
+      backgroundColor : "black"
 
-function Home(Properties) {
-  var styling = {
-    textAlign: "center",
-    backgroundColor: "lightblue",
-    margin: "0px",
   };
-  var s={
-    marginTop: "0px",
-  };
-  var a=10;
-  var b="Hello";
-  return (
-    <>
-    <Navbar />
-    <div>
-      <h1 style={styling}>Home</h1>
-      <h2 style={s}>Properties</h2>
-      <h2 style={s}>Prop: {a}, {b}</h2>
-    </div>
-    </>
+  return(
+      <div>
+          <h1 style={homestyle}>Home</h1>
+          <h2 >Pro: {props.properties},{props.sjit}</h2>
+      </div>
   );
 }
-
 export default Home;
