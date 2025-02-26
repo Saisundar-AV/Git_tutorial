@@ -12,6 +12,7 @@ import UseMemo from './Component/FunctionalComponent/UseMemo'
 import UseMemoize from './Component/FunctionalComponent/UseMemoize'
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import HoC from './Component/FunctionalComponent/HoC/HoC'
+import Exam from './Component/FunctionalComponent/ContectAPI/Exam'
 //import './App.css'
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
     <Route path='/hoc' element={<HoC />} />
     <Route path='/use-memo' element={<UseMemo />}></Route>
     <Route path='/use-memoize' element={<UseMemoize />}></Route>
+    <Route path='/res' element={<Exam/>}></Route>
     </Routes>
     </BrowserRouter>
     </main>
